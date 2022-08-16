@@ -1,10 +1,10 @@
 enum CarType {
-  sport,
-  suv,
-  mvp,
-  sedan,
-  coupe,
-  hatchback,
+  SPORT = 'Sport',
+  SUV = 'SUV',
+  MPV = 'MPV',
+  SEDAN = 'Sedan',
+  COUPE = 'Coupe',
+  HATCHBACK = 'Hatchback',
 }
 
 interface Car {
@@ -25,7 +25,7 @@ const carsList: Car[] = [
   {
     id: '0001',
     car: 'Koenigsegg',
-    type: CarType.sport,
+    type: CarType.SPORT,
     seats: 2,
     transmission: 'Manual',
     price: '99.00',
@@ -38,7 +38,7 @@ const carsList: Car[] = [
   {
     id: '0002',
     car: 'Nissan GT - R',
-    type: CarType.sport,
+    type: CarType.SPORT,
     seats: 2,
     transmission: 'Manual',
     price: '100.00',
@@ -51,7 +51,7 @@ const carsList: Car[] = [
   {
     id: '0003',
     car: 'Rolls - Royce',
-    type: CarType.sedan,
+    type: CarType.SEDAN,
     seats: 2,
     transmission: 'Manual',
     price: '96.00',
@@ -64,7 +64,7 @@ const carsList: Car[] = [
   {
     id: '0004',
     car: 'All New Rush',
-    type: CarType.suv,
+    type: CarType.SUV,
     seats: 6,
     transmission: 'Manual',
     price: '80.00',
@@ -77,7 +77,7 @@ const carsList: Car[] = [
   {
     id: '0005',
     car: 'CR - V',
-    type: CarType.suv,
+    type: CarType.SUV,
     seats: 6,
     transmission: 'Manual',
     price: '80.00',
@@ -90,7 +90,7 @@ const carsList: Car[] = [
   {
     id: '0006',
     car: 'All New Terios',
-    type: CarType.suv,
+    type: CarType.SUV,
     seats: 6,
     transmission: 'Manual',
     price: '74.00',
@@ -103,7 +103,7 @@ const carsList: Car[] = [
   {
     id: '0007',
     car: 'CR - V',
-    type: CarType.suv,
+    type: CarType.SUV,
     seats: 6,
     transmission: 'Manual',
     price: '80.00',
@@ -116,7 +116,7 @@ const carsList: Car[] = [
   {
     id: '0008',
     car: 'MG ZX Exclusice',
-    type: CarType.hatchback,
+    type: CarType.HATCHBACK,
     seats: 4,
     transmission: 'Manual',
     price: '80.00',
@@ -129,7 +129,7 @@ const carsList: Car[] = [
   {
     id: '0009',
     car: 'New MG ZS',
-    type: CarType.suv,
+    type: CarType.SUV,
     seats: 6,
     transmission: 'Manual',
     price: '80.00',
@@ -142,7 +142,7 @@ const carsList: Car[] = [
   {
     id: '0010',
     car: 'MG ZX Excite',
-    type: CarType.hatchback,
+    type: CarType.HATCHBACK,
     seats: 4,
     transmission: 'Manual',
     price: '74.00',
@@ -155,7 +155,7 @@ const carsList: Car[] = [
   {
     id: '0011',
     car: 'New MG ZS',
-    type: CarType.suv,
+    type: CarType.SUV,
     seats: 6,
     transmission: 'Manual',
     price: '80.00',
@@ -168,7 +168,7 @@ const carsList: Car[] = [
   {
     id: '0012',
     car: 'Nissan GT - R',
-    type: CarType.sport,
+    type: CarType.SPORT,
     seats: 2,
     transmission: 'Manual',
     price: '100.00',

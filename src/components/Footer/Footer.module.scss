@@ -1,0 +1,46 @@
+.footer-container {
+  margin: 0 auto;
+  padding: 8rem 6.4rem 6rem;
+  max-width: 100%;
+}
+
+.footer-upper {
+  padding-bottom: 3.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-upper__column-right {
+  max-width: 25ch;
+}
+
+.footer__logo {
+  margin-bottom: 1.6rem;
+}
+
+.footer-upper__column-left {
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+}
+
+.footer-nav__title {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav__link {
+  padding: 0.5rem 0;
+}
+
+.footer-lower {
+  padding-top: 3.6rem;
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  border-top: 1px solid $secondary-200;
+}
+
+.footer__copyrights {
+  margin-right: auto;
+}

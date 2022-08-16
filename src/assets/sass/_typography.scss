@@ -1,0 +1,38 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  @extend %font;
+  color: $secondary-400;
+  @include font();
+}
+
+.logo {
+  color: $primary-default;
+  text-transform: uppercase;
+  letter-spacing: -3%;
+  @include font($size: 3.2rem, $weight: $weight-bold);
+  @include media-mobile {
+    @include font($size: 2.4rem, $height: 2.8rem, $weight: $weight-bold);
+  }
+}
+
+.button {
+  color: $white;
+  @include font($size: 1.6rem, $height: 5.6rem, $weight: $weight-semibold);
+}
+
+.footer-nav__title {
+  color: $secondary-default;
+  @include font($size: 2rem, $weight: $weight-semibold);
+}
+
+.footer-nav__link {
+  color: $secondary-400;
+}
+
+.footer-lower__text {
+  color: $secondary-default;
+  @include font($weight: $weight-semibold);
+}

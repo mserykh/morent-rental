@@ -30,12 +30,15 @@ const Footer = () => {
       ],
     },
   ];
+
   return (
     <footer className="footer">
-      <div className="footer-container">
+      <div className="container footer-container">
         <div className="footer-upper">
           <div className="footer-upper__column-right">
-            <Logo />
+            <div className="footer__logo">
+              <Logo />
+            </div>
             <p className="footer-upper__text">
               Our vision is to provide convenience and help increase your sales
               business.

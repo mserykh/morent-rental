@@ -1,0 +1,40 @@
+.filter {
+  display: grid;
+  margin-left: 64px;
+  max-width: 492px;
+  width: 100%;
+}
+
+.input-wrapper {
+  display: grid;
+  grid-area: 1/-1;
+}
+
+.input {
+  grid-area: 1/-1;
+  padding: 0 64px;
+  height: 44px;
+  width: 100%;
+  border: 1px solid $secondary-100;
+  border-radius: 70px;
+}
+
+.filter__icon {
+  padding: 0 20px;
+  grid-area: 1/-1;
+  align-self: center;
+  justify-self: end;
+  & > svg {
+    display: block;
+  }
+}
+
+.input__icon {
+  padding: 0 20px;
+  grid-area: 1/-1;
+  align-self: center;
+  justify-self: start;
+  & > svg {
+    display: block;
+  }
+}

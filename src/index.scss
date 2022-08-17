@@ -1,9 +1,12 @@
 @import './assets/sass/base';
 @import './assets/sass/constants';
 @import './assets/sass/fonts';
+@import './assets/sass/helpers';
 @import './assets/sass/mixins';
 @import './assets/sass/placeholders';
 @import './assets/sass/reset';
 @import './assets/sass/typography';
 
-@import './components/Footer/Footer.module.scss'
+@import './components/Header/Filter/Filter.module.scss';
+@import './components/Footer/Footer.module.scss';
+@import './components/Header/Header.module.scss';

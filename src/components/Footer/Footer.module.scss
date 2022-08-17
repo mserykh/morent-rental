@@ -1,7 +1,6 @@
 .footer-container {
-  margin: 0 auto;
-  padding: 8rem 6.4rem 6rem;
-  max-width: 100%;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
 }
 
 .footer-upper {
@@ -38,7 +37,7 @@
   display: flex;
   flex-direction: row;
   gap: 6rem;
-  border-top: 1px solid $secondary-200;
+  border-top: 1px solid $secondary-100;
 }
 
 .footer__copyrights {

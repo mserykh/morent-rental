@@ -20,7 +20,13 @@ body {
 
 .button {
   color: $white;
-  @include font($size: 1.6rem, $height: 5.6rem, $weight: $weight-semibold);
+  @include font($height: 5.6rem, $weight: $weight-semibold);
+}
+
+.input {
+  @extend %font;
+  color: $secondary-400;
+  @include font($size: 1.4rem);
 }
 
 .footer-nav__title {

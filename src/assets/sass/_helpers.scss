@@ -1,0 +1,17 @@
+.sr-only {
+  position: absolute;
+  padding: 0;
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 2rem;
+  max-width: $desktop-width;
+  width: 100%;
+}

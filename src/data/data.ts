@@ -1,4 +1,4 @@
-enum CarType {
+export enum CarType {
   SPORT = 'Sport',
   SUV = 'SUV',
   MPV = 'MPV',
@@ -7,10 +7,16 @@ enum CarType {
   HATCHBACK = 'Hatchback',
 }
 
-interface Car {
+export interface Car {
   id: string;
   car: string;
-  type: CarType;
+  type:
+    | CarType.SPORT
+    | CarType.SUV
+    | CarType.MPV
+    | CarType.SEDAN
+    | CarType.COUPE
+    | CarType.HATCHBACK;
   seats: number;
   transmission: string;
   price: string;

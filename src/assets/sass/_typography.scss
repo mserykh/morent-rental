@@ -20,7 +20,7 @@ body {
 
 .button {
   color: $white;
-  @include font($height: 5.6rem, $weight: $weight-semibold);
+  @include font($height: 0, $weight: $weight-semibold);
 }
 
 .input {

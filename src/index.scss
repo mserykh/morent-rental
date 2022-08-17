@@ -7,6 +7,9 @@
 @import './assets/sass/reset';
 @import './assets/sass/typography';
 
+@import './components/Button/Button.module.scss';
 @import './components/Header/Filter/Filter.module.scss';
 @import './components/Footer/Footer.module.scss';
 @import './components/Header/Header.module.scss';
+@import './components/CarCard/CarCard.module.scss';
+@import './components/CarsSection/CarsSection.module.scss';
